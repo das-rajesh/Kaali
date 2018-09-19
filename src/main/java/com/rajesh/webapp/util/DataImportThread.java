@@ -22,6 +22,9 @@ public class DataImportThread extends Thread {
     String uploadPath = "C:\\Users\\Dell\\Documents\\NetBeansProjects\\Kaali\\src\\main\\webapp\\WEB-INF\\upload\\";
     String fileName;
 
+    public DataImportThread() {
+    }
+
     public DataImportThread(String fileName) {
         this.fileName = fileName;
     }
